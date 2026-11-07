@@ -1,0 +1,12 @@
+# PyTorch cu CUDA se instaleaza separat (vezi README):
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1
+torchvision>=0.16
+numpy
+h5py
+tqdm
+# doar pentru pre-procesare (extragerea features din videoclipuri)
+opencv-python
+librosa
+soundfile
+torchvggish

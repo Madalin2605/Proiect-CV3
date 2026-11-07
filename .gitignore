@@ -1,0 +1,29 @@
+# Date mari (se descarca separat, vezi README)
+data/AVE_Dataset/AVE/
+data/AVE_Dataset/*.zip
+data/features/
+data/stats/
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Cai locale catre features (specifice fiecarui calculator)
+local_paths.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Rezultate
+outputs/
+runs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
