@@ -58,11 +58,11 @@ randurilor din `Annotations.txt` si se pot regenera cu `python -m scripts.make_s
 
 ### Obtinerea features
 
-Fisierele `.h5` (~8 GB pentru video) nu sunt incluse in repository. Fie le extragi
-cu scriptul de mai sus (videoclipurile in `data/AVE_Dataset/AVE/`), fie folosesti
+Fisierele `.h5` (~8 GB pentru video) nu sunt incluse in repository. Acestea fie sunt extrase
+cu scriptul de mai sus (src/preprocessing/extract_features.py, cu videoclipurile in `data/AVE_Dataset/AVE/`), fie sunt folosite
 features-urile publicate de autorii AVE
 ([github.com/YapengTian/AVE-ECCV18](https://github.com/YapengTian/AVE-ECCV18)).
-Ca sa nu fie copiate, caile catre ele se pun intr-un fisier local
+Pentru a nu fii copiate, caile catre ele se pun in fisierul local
 `local_paths.json` (nu e pus pe git), pornind de la `local_paths.example.json`:
 
 ```json
